@@ -82,12 +82,6 @@ Interactive Business Insights
 
 # 📊 Dashboard Screenshots
 
-## 🏠 Dashboard Home
-
-![Dashboard]("C:\Users\User\Desktop\Projects\InsightFlow-Cloud-Business-Intelligence-Platform\images\Dashboard.png").
-
----
-
 ## 📊 Sales by Category
 
 ![Sales Category](images/sales_by_category.png)
