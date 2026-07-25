@@ -1,66 +1,215 @@
-# InsightFlow Cloud Business Intelligence Platform
+# 📊 InsightFlow Cloud Business Intelligence Platform
 
-## Overview
-InsightFlow is a cloud-powered Business Intelligence dashboard built using Python, Streamlit, Google BigQuery, and Plotly. It enables interactive analysis of sales, profit, customers, products, and regional performance through an intuitive web interface.
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-Live-red?logo=streamlit)
+![Google BigQuery](https://img.shields.io/badge/Google-BigQuery-4285F4?logo=googlecloud)
+![SQL](https://img.shields.io/badge/SQL-Analytics-blue)
+![Plotly](https://img.shields.io/badge/Plotly-Interactive-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-## Features
-- Interactive dashboard filters
-- Google BigQuery integration
-- KPI cards
-- Sales and Profit analysis
-- Category, Region, and Segment analysis
-- Monthly Sales and Profit trends
-- Top Customers and Top Products
-- Correlation Heatmap
-- Business Insights
-- Download filtered data as CSV
-- Refresh Data button
-- Last Refreshed timestamp
-- Error handling for BigQuery
+A cloud-powered **Business Intelligence Dashboard** built using **Python, Google BigQuery, SQL, Streamlit, Pandas, and Plotly**. The application provides real-time business insights through interactive dashboards, KPI monitoring, filtering, and advanced analytics.
 
-## Tech Stack
-- Python
-- Streamlit
-- Google BigQuery
-- Plotly
-- Pandas
+---
 
-## Project Structure
+# 🌐 Live Demo
+
+### 🚀 Streamlit Application
+
+**https://insightflow-cloud-business-intelligence-platform-dvnzkctr99lnk.streamlit.app/**
+
+---
+
+# 📖 Project Overview
+
+InsightFlow is an end-to-end Cloud Business Intelligence Platform that enables users to analyze sales, profit, customers, products, and regional performance using interactive dashboards backed by Google BigQuery.
+
+The project demonstrates a complete cloud analytics workflow from data storage and querying to visualization and deployment.
+
+---
+
+# ✨ Features
+
+- 📊 Interactive KPI Dashboard
+- ☁️ Google BigQuery Integration
+- 🔍 Dynamic Dashboard Filters
+- 💰 Sales Analysis
+- 📈 Profit Analysis
+- 🌍 Regional Analysis
+- 👥 Customer Segmentation
+- 📦 Product Performance
+- 📅 Monthly Sales Trends
+- 📊 Correlation Heatmap
+- 📥 Export Filtered Data as CSV
+- 🔄 Real-Time Data Refresh
+
+---
+
+# 🛠 Tech Stack
+
+| Category | Technology |
+|----------|------------|
+| Programming | Python |
+| Cloud Database | Google BigQuery |
+| Dashboard | Streamlit |
+| Visualization | Plotly |
+| Data Analysis | Pandas |
+| Query Language | SQL |
+| Version Control | Git & GitHub |
+
+---
+
+# 🏗 Architecture
+
 ```
-InsightFlow-Cloud-Business-Intelligence-Platform/
+CSV Dataset
+      │
+      ▼
+Google BigQuery
+      │
+SQL Queries
+      │
+      ▼
+Python (Pandas)
+      │
+      ▼
+Streamlit Dashboard
+      │
+      ▼
+Interactive Business Insights
+```
+
+---
+
+# 📊 Dashboard Screenshots
+
+## 📊 Sales by Category
+
+![Sales Category](images/sales_by_category.png)
+
+---
+
+## 🌍 Sales by Region
+
+![Sales Region](images/sales_by_region.png)
+
+---
+
+## 📈 Monthly Sales Trend
+
+![Monthly Trend](images/monthly_sales.png)
+
+---
+
+## 👥 Top Customers
+
+![Top Customers](images/top_customers.png)
+
+---
+
+
+# 📈 Key Performance Indicators
+
+- Total Sales
+- Total Profit
+- Orders
+- Customers
+- Quantity Sold
+- Average Order Value
+- Average Discount
+- Profit Margin
+
+---
+
+# 💡 Business Insights
+
+The dashboard helps users:
+
+- Monitor business performance
+- Compare regional sales
+- Identify profitable categories
+- Discover top customers
+- Track monthly trends
+- Analyze discounts and profitability
+- Make data-driven decisions
+
+---
+
+# 📂 Project Structure
+
+```
+InsightFlow-Cloud-Business-Intelligence-Platform
+│
+├── data/
+├── images/
+│   ├── dashboard_home.png
+│   ├── dashboard_filters.png
+│   ├── kpi_cards.png
+│   ├── sales_by_category.png
+│   ├── sales_by_region.png
+│   ├── monthly_sales.png
+│   ├── top_customers.png
+│   └── correlation_heatmap.png
+│
+├── scripts/
+├── sql/
 ├── app.py
 ├── bigquery_connection.py
 ├── requirements.txt
 ├── README.md
-├── scripts/
-├── sql/
-├── data/
-├── images/
-└── docs/
+├── LICENSE
+└── .gitignore
 ```
 
-## Installation
+---
+
+# 🚀 Installation
+
+## Clone Repository
 
 ```bash
-git clone <repository-url>
-cd InsightFlow-Cloud-Business-Intelligence-Platform
+git clone https://github.com/YukthaK215/InsightFlow-Cloud-Business-Intelligence-Platform.git
+```
+
+## Install Dependencies
+
+```bash
 pip install -r requirements.txt
+```
+
+## Run Streamlit
+
+```bash
 streamlit run app.py
 ```
 
-## Dashboard Features
-- Interactive filters
-- Real-time analytics
-- Business insights
-- KPI monitoring
-- Export filtered data
-- Cloud-based data processing
+---
 
-## Future Enhancements
-- User authentication
-- Scheduled reports
-- Real-time streaming
-- Forecasting models
+# 🔮 Future Enhancements
 
-## Author
-Yuktha K
+- Machine Learning Sales Forecasting
+- Customer Segmentation using AI
+- Automated Report Generation
+- Real-Time Streaming Analytics
+- Advanced Business KPIs
+- Forecast Dashboard
+
+---
+
+# 👩‍💻 Author
+
+**Yuktha K**
+
+GitHub:
+https://github.com/YukthaK215
+
+---
+
+# ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
