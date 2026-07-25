@@ -84,7 +84,7 @@ Interactive Business Insights
 
 ## 🏠 Dashboard Home
 
-![Dashboard](images/Dashboard.png)
+![Dashboard]("C:\Users\User\Desktop\Projects\InsightFlow-Cloud-Business-Intelligence-Platform\images\Dashboard.png").
 
 ---
 
