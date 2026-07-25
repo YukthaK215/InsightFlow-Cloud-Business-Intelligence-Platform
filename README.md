@@ -84,7 +84,7 @@ Interactive Business Insights
 
 ## 🏠 Dashboard Home
 
-![Dashboard](images/dashboard.png)
+![Dashboard](images/Dashboard.png)
 
 ---
 
@@ -112,11 +112,6 @@ Interactive Business Insights
 
 ---
 
-## 🔥 Correlation Heatmap
-
-![Heatmap](images/correlation_heatmap.png)
-
----
 
 # 📈 Key Performance Indicators
 
