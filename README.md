@@ -82,6 +82,12 @@ Interactive Business Insights
 
 # 📊 Dashboard Screenshots
 
+## 📊 Dashboard
+
+![Dashboard](images/Dashboard.png)
+
+---
+
 ## 📊 Sales by Category
 
 ![Sales Category](images/sales_by_category.png)
