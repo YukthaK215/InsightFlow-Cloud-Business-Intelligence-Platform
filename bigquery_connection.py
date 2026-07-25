@@ -8,8 +8,10 @@ import pandas as pd
 
 PROJECT_ID = "insightflow-bi-platform"
 
-credentials = service_account.Credentials.from_service_account_file(
-    "credentials.json"
+import streamlit as st
+
+credentials = service_account.Credentials.from_service_account_info(
+    st.secrets["gcp_service_account"]
 )
 
 client = bigquery.Client(
