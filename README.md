@@ -84,19 +84,7 @@ Interactive Business Insights
 
 ## 🏠 Dashboard Home
 
-![Dashboard](images/dashboard_home.png)
-
----
-
-## 🎛 Dashboard Filters
-
-![Filters](images/dashboard_filters.png)
-
----
-
-## 📈 KPI Dashboard
-
-![KPIs](images/kpi_cards.png)
+![Dashboard](images/dashboard.png)
 
 ---
 
